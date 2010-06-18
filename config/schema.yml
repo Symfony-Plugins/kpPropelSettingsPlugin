@@ -1,0 +1,11 @@
+propel:
+  _attributes:       { package: plugins.kpPropelSettingsPlugin.lib.model }
+  kp_setting:
+    id:              ~
+    name:            { type: varchar, size: 255, index: unique, notnull: true }
+    type:            { type: varchar, size: 255, notnull: true, default: input }
+    widget_options:  { type: longvarchar }
+    value:           { type: longvarchar }
+    setting_group:   { type: varchar, size: 255, default: '' }
+    setting_default: { type: longvarchar, default:  '' }
+    slug:            { type: varchar, size: 255, index: unique, notnull: true }

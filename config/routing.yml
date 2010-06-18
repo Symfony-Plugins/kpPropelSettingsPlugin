@@ -1,0 +1,17 @@
+kp_setting:
+  class: sfPropelRouteCollection
+  options:
+    model:                kpSetting
+    module:               kpSetting
+    prefix_path:          settings
+    column:               id
+    with_wildcard_routes: true
+
+kp_setting_save_all:
+  url:     /settings/save_all
+  param:   { module: kpSetting, action: listSaveSettings }
+  requirements: { sf_method: post }
+
+kp_setting_restore_all_defaults:
+  url:    /settings/restore_all
+  param:  { module: kpSetting, action: restoreAllDefaults }
