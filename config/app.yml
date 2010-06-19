@@ -10,8 +10,8 @@ all:
       model:        Database Model
       upload:       Upload
     
+    authDisable:    true             #disable auth - grant edit to all
     authMethod:     isSuperAdmin      #used to determine if user is able to edit settings
-    
     authCredential: admin      #used to determine if user is able to edit settings
     
     cachepaths:                       #override the cache path, for whatever reason you might want to

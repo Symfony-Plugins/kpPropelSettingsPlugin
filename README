@@ -1,6 +1,9 @@
 # Symfony Propel Settings Plugin #
 
-Much like the `` sfConfig::get() `` method, use `` kpSettings::get() `` to call dynamic, user-defined settings.  
+Much like the `` sfConfig::get() `` method, use `` kpSettings::get() `` to call dynamic, user-defined settings.
+
+All settings are also populated to sfConfig, so you can use it without rewriting your code (sfConfig settings with same name will be overwritten).
+
 An admin generator interface allows easy administration.
 
 All settings are cached when first loaded, and the cache is refreshed whenever a

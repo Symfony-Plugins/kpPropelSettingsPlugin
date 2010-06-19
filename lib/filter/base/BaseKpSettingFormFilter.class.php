@@ -3,7 +3,9 @@
 /**
  * KpSetting filter form base class.
  *
- * @package kpPropelSettingsPlugin
+ * @package    ##PROJECT_NAME##
+ * @subpackage filter
+ * @author     ##AUTHOR_NAME##
  */
 abstract class BaseKpSettingFormFilter extends BaseFormFilterPropel
 {

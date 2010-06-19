@@ -7,5 +7,5 @@ propel:
     widget_options:  { type: longvarchar }
     value:           { type: longvarchar }
     setting_group:   { type: varchar, size: 255, default: '' }
-    setting_default: { type: longvarchar, default:  '' }
+    setting_default: { type: longvarchar }
     slug:            { type: varchar, size: 255, index: unique, notnull: true }

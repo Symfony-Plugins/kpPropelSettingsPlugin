@@ -5,7 +5,9 @@
  *
  * @method KpSetting getObject() Returns the current form's model object
  *
- * @package kpPropelSettingsPlugin
+ * @package    ##PROJECT_NAME##
+ * @subpackage form
+ * @author     ##AUTHOR_NAME##
  */
 abstract class BaseKpSettingForm extends BaseFormPropel
 {
